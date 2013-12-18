@@ -1,8 +1,10 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 
+configure :production do
+	ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
+end
 
-# ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 configure :development do
 	set :database, 'sqlite:///emailcontact.db'
 end
