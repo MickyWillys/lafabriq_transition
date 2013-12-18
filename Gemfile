@@ -3,7 +3,10 @@ gem 'sinatra'
 gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'rake'
-gem 'pg'
+
+group :production do
+  gem 'pg', '0.15.1'
+end
 
 
 
