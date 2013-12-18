@@ -1,17 +1,15 @@
 source 'https://rubygems.org'
-gem 'sinatra'
-gem 'activerecord'
-gem 'sinatra-activerecord'
-gem 'rake'
+
+ruby '2.0.0'
+
+gem "sinatra"
+gem "activerecord"
+gem "sinatra-activerecord"
+
+group :development do
+  gem 'sqlite3'
+end
 
 group :production do
   gem 'pg', '0.15.1'
 end
-
-
-
-group :development do	
-	gem 'sqlite3'
-
-end
-
