@@ -5,48 +5,66 @@
 
 #annonce{
 	padding-top:60px;
-	padding-top:40px;
+	padding-bottom:40px;
+}
+.grand{
+	font-size: 3em;
+}
+.moyen{
+	font-size: 2em;
+}
+.petit{
+	font-size: 1.5em;
 }
 #video{	
 	padding-top:75px;
 }
 #fabcompetences{
-	padding-top:45px;
+	padding-top:75px;
 	}
-#fabcompetences h1{
+#fabcompetences p{
 	margin-top: 0.4em;
 	margin-bottom:0.5em;
 	line-height: 1.1;
 }
 #deuxieme_partie {
-	height: 30px;
+	margin-top: 70px;	
+	margin-bottom: 70px;
 }	
 #reseau_sociaux{
-	padding-top:60px;
+	padding-top:110px;
 	}
+#reseau_sociaux p{
+	margin-top: 0.4em;
+	margin-bottom:0.5em;
+	line-height: 1.1;
+}
+#rs-texte{
+	margin-bottom:60px;
+}
 .box{
-	padding-top:45px;
-	padding-bottom:45px;
+	/*padding-top:45px;
+	padding-bottom:45px;*/
+	margin-top: 100px;
+	margin-bottom: 80px;
 }
 .slide{
 	position: relative;
-	/*height: 480px;*/
 	text-align: center;
-
 	font-family: 'Open Sans', sans-serif;
 }
-.slide h1, .slide h2,.slide h3{
+.slide p{
 	color: white;
 }
 #projet_associatif{
-	padding-top: 80px;
+	padding-top: 110px;
 }
 #rapport {
-	padding-top: 15px;
-	padding-bottom: 20px;
+	margin-top: 80px;
+	margin-bottom: 60px;
 }
 #contact {
-	padding-top: 100px;
+	padding-top: 150px;
 	
 }
 #rdv {
@@ -82,7 +100,15 @@
 }
 #contenu-bandeau{
 	height: 36px;
-	background-color: red;
 }
 
-
+#texte-bandeau-petit{
+	line-height: 30px;
+	font-size: 0.9em;
+}
+#texte-bandeau-grand{
+	font-size: 1.5em;
+}
+#logo-FB{
+	padding-left: 0px;
+}
