@@ -4,23 +4,15 @@
 }
 
 #annonce{
-	padding-top:60px;
-	padding-bottom:40px;
+	margin-top:60px;
+	margin-bottom:40px;
 }
-.grand{
-	font-size: 3em;
-}
-.moyen{
-	font-size: 2em;
-}
-.petit{
-	font-size: 1.5em;
-}
+
 #video{	
 	padding-top:75px;
 }
 #fabcompetences{
-	padding-top:75px;
+	padding-top:65px;
 	}
 #fabcompetences p{
 	margin-top: 0.4em;
@@ -28,34 +20,34 @@
 	line-height: 1.1;
 }
 #deuxieme_partie {
-	margin-top: 70px;	
-	margin-bottom: 70px;
+	margin-top: 50px;	
+	margin-bottom: 35px;
 }	
 #reseau_sociaux{
-	padding-top:110px;
+	padding-top:75px;
 	}
 #reseau_sociaux p{
 	margin-top: 0.4em;
 	margin-bottom:0.5em;
 	line-height: 1.1;
 }
+#logo-rs1{
+	text-align: right;
+	padding-right: 15px;
+}
+#logo-rs2{
+	text-align: left;
+	padding-left: 15px;
+}
 #rs-texte{
 	margin-bottom:60px;
 }
 .box{
-	/*padding-top:45px;
-	padding-bottom:45px;*/
-	margin-top: 100px;
-	margin-bottom: 80px;
+	text-align: left;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
-.slide{
-	position: relative;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-}
-.slide p{
-	color: white;
-}
+
 #projet_associatif{
 	padding-top: 110px;
 }
@@ -70,17 +62,6 @@
 #rdv {
 	padding-bottom: 100px;
 	
-}
-.orange{
-	background-color: rgba(255, 102, 0, 1);
-}
-
-/*#link_to_next_page{	
-	position: absolute; bottom: 0;
-} */
-
-.vert{
-    background-color: rgba(57, 210, 5, 1);
 }
 
 #bandeau{
@@ -111,4 +92,33 @@
 }
 #logo-FB{
 	padding-left: 0px;
+}
+
+.orange{
+	background-color: rgba(255, 102, 0, 1);
+}
+
+.vert{
+    background-color: rgba(57, 210, 5, 1);
+}
+
+.slide{
+	position: relative;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.slide p{
+	color: white;
+}
+.grand{
+	font-size: 3em;
+}
+.moyen{
+	font-size: 2em;
+}
+.petit{
+	font-size: 1.5em;
+}
+.trespetit{
+	font-size: 0.75em;
 }
